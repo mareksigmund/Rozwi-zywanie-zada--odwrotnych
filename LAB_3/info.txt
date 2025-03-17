@@ -1,0 +1,9 @@
+Metoda BFGS (Broyden-Fletcher-Goldfarb-Shanno) – Metoda quasi-Newtona, która aproksymuje macierz Hesjana i jest efektywna w znajdowaniu minimów funkcji nieliniowych. Działa bezpośrednio na gradientach i nie wymaga obliczania pełnej macierzy Hessego. Stosowana jest do zadań odwrotnych, takich jak przewodnictwo cieplne.
+
+Metoda L-BFGS-B – Rozwinięcie BFGS z ograniczeniami (bounds) i zoptymalizowane pod kątem oszczędności pamięci. Przydatna w problemach o dużych wymiarach.
+
+Metoda Newton-CG (Newton-Conjugate Gradient) – Metoda bazująca na metodzie Newtona, wykorzystująca sprzężone gradienty (CG) do efektywnego rozwiązywania układów równań przy dużych wymiarach. Stosuje aproksymację macierzy Hesjana w celu zwiększenia efektywności obliczeniowej.
+
+Metoda Gradientu Prostego (Gradient Descent) – Klasyczna metoda iteracyjna, która stopniowo aktualizuje parametry w kierunku przeciwnym do gradientu funkcji kosztu. To podstawowa technika, często używana w machine learningu i optymalizacji.
+
+Metoda TNC (Truncated Newton Conjugate Gradient) – Wariant metody Newtona zoptymalizowany dla dużych problemów. Wykorzystuje gradienty sprzężone i aproksymację Hesjana bez jego pełnej macierzy.
