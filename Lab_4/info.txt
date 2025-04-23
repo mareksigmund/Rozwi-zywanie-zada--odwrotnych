@@ -1,0 +1,2 @@
+W jaki sposób model ukazuje rozkład temperatu czyli czy parametry w MRSie to osbniki czy punkty węzłowe jako osobniki
+Najprościej chyba że jeden osobnik reprezentuje wszystkie węzły
